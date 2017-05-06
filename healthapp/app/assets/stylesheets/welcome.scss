@@ -1,0 +1,253 @@
+//colors
+$white: #fff;
+$black_30: rgba(0, 0, 0, .3);
+$color_tundora_approx: #444;
+$color_azure_approx: #369;
+$color_gothic_approx: #798fa5;
+$color_mine_shaft_approx: #313437;
+$color_gray_approx: #7d8285;
+$color_porcelain_approx: #eff1f4;
+$color_science_blue_approx: #055ada;
+
+//urls
+$url_0: url(city_bg.jpg);
+$url_1: url(screen-content-iphone-6.jpg);
+
+.navbar {
+	margin-bottom: 0;
+	border: none;
+}
+.hero {
+	background: $url_0 center no-repeat;
+	background-size: cover;
+	border: none;
+	.get-it {
+		h1 {
+			color: $white;
+			//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			text-shadow: 2px 2px 3px $black_30;
+			margin-bottom: 40px;
+		}
+		p {
+			color: $white;
+			//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			text-shadow: 2px 2px 3px $black_30;
+			margin-bottom: 40px;
+		}
+		.btn {
+			margin-left: 10px;
+			margin-bottom: 10px;
+			//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			text-shadow: none;
+		}
+	}
+}
+@media(min-width:992px) {
+	.hero .get-it {
+		text-align: right;
+		margin-top: 80px;
+		padding-right: 30px;
+	}
+}
+.icon-feature {
+	text-align: center;
+	.glyphicon {
+		font-size: 60px;
+	}
+}
+.site-footer {
+	text-align: center;
+	padding: 20px 0;
+	h5 {
+		color: inherit;
+		font-size: 20px;
+	}
+	.social-icons a {
+		display: inline-block;
+		width: 32px;
+		border: none;
+		font-size: 20px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 50%;
+		margin: 4px;
+		color: $white;
+		text-align: center;
+		background-color: $color_gothic_approx;
+		height: 32px;
+		opacity: .8;
+		line-height: 32px;
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+@media(max-width:992px) {
+	.hero {
+		.get-it {
+			text-align: center;
+		}
+		.phone-preview {
+			text-align: center;
+		}
+	}
+}
+.iphone-mockup {
+	.screen {
+		position: absolute;
+		width: 88%;
+		height: 77%;
+		top: 12%;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 2px;
+		left: 6%;
+		border: 1px solid $color_tundora_approx;
+		overflow: hidden;
+		background: $url_1 center;
+		background-size: cover;
+		&:before {
+			content: '';
+			background-color: $white;
+			position: absolute;
+			width: 70%;
+			height: 140%;
+			top: -12%;
+			right: -60%;
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: rotate(-19deg);
+			opacity: .2;
+		}
+	}
+	img.device {
+		width: 100%;
+		height: auto;
+	}
+}
+section {
+	&.features {
+		background-color: $color_azure_approx;
+		padding: 40px 0;
+		color: $white;
+	}
+	&.testimonials {
+		margin: 50px 0;
+	}
+}
+.features {
+	h2 {
+		color: $white;
+	}
+	.icon-features {
+		margin-top: 15px;
+	}
+}
+@media(min-width:768px) {
+	.site-footer {
+		h5 {
+			text-align: left;
+		}
+		.social-icons {
+			text-align: right;
+		}
+	}
+}
+.newsletter-subscribe {
+	color: $color_mine_shaft_approx;
+	background-color: $white;
+	padding: 50px 0;
+	p {
+		color: $color_gray_approx;
+		line-height: 1.5;
+	}
+	h2 {
+		font-size: 24px;
+		font-weight: 700;
+		margin-bottom: 25px;
+		line-height: 1.5;
+		padding-top: 0;
+		margin-top: 0;
+		color: inherit;
+	}
+	.intro {
+		font-size: 16px;
+		max-width: 500px;
+		margin: 0 auto 25px;
+		p {
+			margin-bottom: 35px;
+		}
+	}
+	form {
+		text-align: center;
+		.form-control {
+			background: $color_porcelain_approx;
+			border: none;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 3px;
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none;
+			outline: 0;
+			color: inherit;
+			text-indent: 9px;
+			height: 45px;
+			margin-right: 10px;
+			min-width: 250px;
+		}
+		.btn {
+			padding: 16px 32px;
+			border: none;
+			background: 0 0;
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none;
+			//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			text-shadow: none;
+			opacity: .9;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 13px;
+			letter-spacing: .4px;
+			line-height: 1;
+			&:hover {
+				opacity: 1;
+			}
+			&:active {
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: translateY(1px);
+			}
+		}
+		.btn-primary {
+			background-color: $color_science_blue_approx!important;
+			color: $white;
+			outline: 0!important;
+		}
+	}
+}
+.Newsletter_header {
+	color: $white;
+}
+.form-inline {
+	.email_field {
+		width: 75%;
+	}
+	.email_input {
+		width: 100%;
+		margin-bottom: 10px;
+		height: 35px;
+	}
+}
+@media(max-width:767px) {
+	.form-inline {
+		display: flex;
+		margin-left: 7%;
+	}
+}
+.navbar-brand .glyphicon {
+	margin-right: 6px;
+}
+.testimonials blockquote {
+	text-align: center;
+}
+div.iphone-mockup {
+	position: relative;
+	max-width: 250px;
+	margin: 20px;
+	display: inline-block;
+}
