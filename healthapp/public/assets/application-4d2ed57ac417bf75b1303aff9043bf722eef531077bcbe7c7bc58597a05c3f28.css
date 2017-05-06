@@ -1,0 +1,282 @@
+/* line 17, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.navbar {
+  margin-bottom: 0;
+  border: none;
+}
+
+/* line 21, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero {
+  background: url(jellyfish.jpg) center no-repeat;
+  background-size: cover;
+  border: none;
+}
+/* line 26, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it h1 {
+  color: #fff;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 40px;
+}
+/* line 31, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it p {
+  color: #fff;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 40px;
+}
+/* line 36, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it .btn {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-shadow: none;
+}
+
+@media (min-width: 992px) {
+  /* line 44, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+  .hero .get-it {
+    text-align: right;
+    margin-top: 80px;
+    padding-right: 30px;
+  }
+}
+/* line 50, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.icon-feature {
+  text-align: center;
+}
+/* line 52, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.icon-feature .glyphicon {
+  font-size: 60px;
+}
+
+/* line 56, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.site-footer {
+  text-align: center;
+  padding: 20px 0;
+}
+/* line 59, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.site-footer h5 {
+  color: inherit;
+  font-size: 20px;
+}
+/* line 63, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.site-footer .social-icons a {
+  display: inline-block;
+  width: 32px;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 4px;
+  color: #fff;
+  text-align: center;
+  background-color: #798fa5;
+  height: 32px;
+  opacity: .8;
+  line-height: 32px;
+}
+/* line 76, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.site-footer .social-icons a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  /* line 83, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+  .hero .get-it {
+    text-align: center;
+  }
+  /* line 86, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+  .hero .phone-preview {
+    text-align: center;
+  }
+}
+/* line 92, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.iphone-mockup .screen {
+  position: absolute;
+  width: 88%;
+  height: 77%;
+  top: 12%;
+  border-radius: 2px;
+  left: 6%;
+  border: 1px solid #444;
+  overflow: hidden;
+  background: url(logo.png) center no-repeat;
+  background-size: 100% auto;
+}
+/* line 103, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.iphone-mockup .screen:before {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  width: 70%;
+  height: 140%;
+  top: -12%;
+  right: -60%;
+  transform: rotate(-19deg);
+  opacity: .2;
+}
+/* line 115, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.iphone-mockup img.device {
+  width: 100%;
+  height: auto;
+}
+
+/* line 121, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+section.features {
+  background-color: #369;
+  padding: 40px 0;
+  color: #fff;
+}
+/* line 126, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+section.testimonials {
+  margin: 50px 0;
+}
+
+/* line 131, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.features h2 {
+  color: #fff;
+}
+/* line 134, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.features .icon-features {
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  /* line 140, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+  .site-footer h5 {
+    text-align: left;
+  }
+  /* line 143, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+  .site-footer .social-icons {
+    text-align: right;
+  }
+}
+/* line 148, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.newsletter-subscribe {
+  color: #313437;
+  background-color: #fff;
+  padding: 50px 0;
+}
+/* line 152, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.newsletter-subscribe p {
+  color: #7d8285;
+  line-height: 1.5;
+}
+/* line 156, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.newsletter-subscribe h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+/* line 165, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.newsletter-subscribe .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+/* line 169, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.newsletter-subscribe .intro p {
+  margin-bottom: 35px;
+}
+/* line 173, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.newsletter-subscribe form {
+  text-align: center;
+}
+/* line 175, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.newsletter-subscribe form .form-control {
+  background: #eff1f4;
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: 0;
+  color: inherit;
+  text-indent: 9px;
+  height: 45px;
+  margin-right: 10px;
+  min-width: 250px;
+}
+/* line 187, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.newsletter-subscribe form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: 0 0;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: .9;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: .4px;
+  line-height: 1;
+}
+/* line 199, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.newsletter-subscribe form .btn:hover {
+  opacity: 1;
+}
+/* line 202, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.newsletter-subscribe form .btn:active {
+  transform: translateY(1px);
+}
+/* line 206, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.newsletter-subscribe form .btn-primary {
+  background-color: #055ada !important;
+  color: #fff;
+  outline: 0 !important;
+}
+
+/* line 213, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.Newsletter_header {
+  color: #fff;
+}
+
+/* line 217, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.form-inline .email_field {
+  width: 75%;
+}
+/* line 220, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.form-inline .email_input {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 35px;
+}
+
+@media (max-width: 767px) {
+  /* line 227, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+  .form-inline {
+    display: flex;
+    margin-left: 7%;
+  }
+}
+/* line 232, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.navbar-brand .glyphicon {
+  margin-right: 6px;
+}
+
+/* line 235, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.testimonials blockquote {
+  text-align: center;
+}
+
+/* line 238, /Users/kevinhu/Desktop/job_project/edgdoc-demo/healthapp/app/assets/stylesheets/welcome.scss */
+div.iphone-mockup {
+  position: relative;
+  max-width: 250px;
+  margin: 20px;
+  display: inline-block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
