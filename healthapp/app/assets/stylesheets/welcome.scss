@@ -7,12 +7,12 @@ $color_gothic_approx: #798fa5;
 $color_mine_shaft_approx: #313437;
 $color_gray_approx: #7d8285;
 $color_porcelain_approx: #eff1f4;
-$color_science_blue_approx: #055ada;
-
-
+$button_submit: #862b8b;
+$button_submit_border: #5e415f;
+$button_submit_border_hover: #733576;
 //urls
 $url_0: url(jellyfish.jpg);
-$url_1: url(logo.png);
+$url_1: url(edgedoc2.png);
 
 .navbar {
 	margin-bottom: 0;
@@ -33,10 +33,25 @@ $url_1: url(logo.png);
 			text-shadow: 2px 2px 3px $black_30;
 			margin-bottom: 40px;
 		}
+		.intro {
+			.Newsletter_header {
+				color: $white;
+			}
+		}
 		.btn {
 			margin-left: 10px;
 			margin-bottom: 10px;
 			text-shadow: none;
+		}
+		.btn_edgedoc {
+			background-color: $button_submit;
+			border-color: $button_submit_border;
+			color: $white;
+			outline: 0;
+			&:hover {
+				background-color: $button_submit;
+				border-color: $button_submit_border_hover;
+			}
 		}
 	}
 }
@@ -88,7 +103,11 @@ $url_1: url(logo.png);
 		}
 	}
 }
-.iphone-mockup {
+.inside-phone {
+	position: relative;
+	max-width: 250px;
+	margin: 20px;
+	display: inline-block;
 	.screen {
 		position: absolute;
 		width: 88%;
@@ -99,7 +118,7 @@ $url_1: url(logo.png);
 		border: 1px solid $color_tundora_approx;
 		overflow: hidden;
 		background: $url_1 center no-repeat;
-		background-size: 100% auto;
+		background-size: 90% auto;
 		&:before {
 			content: '';
 			background-color: $white;
@@ -145,74 +164,7 @@ section {
 		}
 	}
 }
-.newsletter-subscribe {
-	color: $color_mine_shaft_approx;
-	background-color: $white;
-	padding: 50px 0;
-	p {
-		color: $color_gray_approx;
-		line-height: 1.5;
-	}
-	h2 {
-		font-size: 24px;
-		font-weight: 700;
-		margin-bottom: 25px;
-		line-height: 1.5;
-		padding-top: 0;
-		margin-top: 0;
-		color: inherit;
-	}
-	.intro {
-		font-size: 16px;
-		max-width: 500px;
-		margin: 0 auto 25px;
-		p {
-			margin-bottom: 35px;
-		}
-	}
-	form {
-		text-align: center;
-		.form-control {
-			background: $color_porcelain_approx;
-			border: none;
-			border-radius: 3px;
-			box-shadow: none;
-			outline: 0;
-			color: inherit;
-			text-indent: 9px;
-			height: 45px;
-			margin-right: 10px;
-			min-width: 250px;
-		}
-		.btn {
-			padding: 16px 32px;
-			border: none;
-			background: 0 0;
-			box-shadow: none;
-			text-shadow: none;
-			opacity: .9;
-			text-transform: uppercase;
-			font-weight: 700;
-			font-size: 13px;
-			letter-spacing: .4px;
-			line-height: 1;
-			&:hover {
-				opacity: 1;
-			}
-			&:active {
-				transform: translateY(1px);
-			}
-		}
-		.btn-primary {
-			background-color: $color_science_blue_approx!important;
-			color: $white;
-			outline: 0!important;
-		}
-	}
-}
-.Newsletter_header {
-	color: $white;
-}
+
 .form-inline {
 	.email_field {
 		width: 75%;
@@ -234,10 +186,4 @@ section {
 }
 .testimonials blockquote {
 	text-align: center;
-}
-div.iphone-mockup {
-	position: relative;
-	max-width: 250px;
-	margin: 20px;
-	display: inline-block;
 }
