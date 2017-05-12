@@ -13,6 +13,7 @@
                     <h2 class="text-center Newsletter_header">Subscribe for our Newsletter</h2>
                     <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
                 </div>
+
                 <form class="form-inline" method="post">
                     <div class="form-group email_field">
                         <input class="form-control email_input" type="email" name="email" placeholder="Your Email">
@@ -21,10 +22,20 @@
                         <button class="btn btn_edgedoc" type="submit">Subscribe </button>
                     </div>
                 </form>
-                <%= form_for @doctor, :url => {:controller => "doctors", :action => "create"}, :html => {:method => :post} do |f| %>
-                  name: <%= f.text_field :name %><br />
-                  <%= f.submit %>
+
+                <%= form_for @doctor, :url => {:controller => "doctors", :action => "create"}, :html => {:class => "form-inline", :method => :post} do |f| %>
+                    <div class="firs_last_name">
+                        <%= f.text_field :first_name, :class => "form-control first_name_input", :placeholder => "First Name"%>
+                        <%= f.text_field :last_name, :class => "form-control last_name_input", :placeholder => "Last Name"%>
+                    </div>
+                    <div class="form-group email_field">
+                        <%= f.text_field :name, :class => "form-control email_input", :placeholder => "Your Email", :type => "email" %><br />
+                    </div>
+                    <div class="form-group">
+                        <%= f.submit "button", :class => "btn btn_edgedoc"%>
+                    </div>
                 <% end %>
+
             </div>
         </div>
     </div>
