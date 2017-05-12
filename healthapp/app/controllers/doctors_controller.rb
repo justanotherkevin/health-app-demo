@@ -25,16 +25,16 @@ class DoctorsController < ApplicationController
   # POST /doctors.json
   def create
     @doctor = Doctor.new(doctor_params)
-
-    respond_to do |format|
+    # respond_to do |format|
       if @doctor.save
-        format.html { redirect_to @doctor, notice: 'Doctor was successfully created.' }
-        format.json { render :show, status: :created, location: @doctor }
+        redirect_to root_path, notice: 'Doctor was successfully created.'
+        # format.json { render :show, status: :created, location: @doctor }
       else
-        format.html { render :new }
-        format.json { render json: @doctor.errors, status: :unprocessable_entity }
+        p 'it is not saved'
+        # format.html { redirect_to root_path }
+        # format.json { render json: @doctor.errors, status: :unprocessable_entity }
       end
-    end
+    # end
   end
 
   # PATCH/PUT /doctors/1
@@ -69,7 +69,6 @@ class DoctorsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def doctor_params
-      binding.pry
-      params.fetch(:doctor, {name})
+      permitted = params.fetch(:doctor).permit(:first_name, :last_name, :email)
     end
 end

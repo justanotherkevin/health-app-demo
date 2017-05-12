@@ -38,27 +38,53 @@ $url_1: url(edgedoc2.png);
 				color: $white;
 			}
 		}
+		form#new_doctor {
+			.firs_last_name_wrapper {
+				display: flex;
+				flex-direction: row;
+				.first_last_input {
+					flex: 1;
+					margin: 5px;
+				}
+			}
+			.email_field {
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				.email_input {
+					width: 100%;
+					margin: 5px 5px 10px 5px;
+					height: 35px;
+					flex: 3;
+				}
+				.btn_edgedoc {
+					text-shadow: none;
+					margin: 5px 5px 10px 5px;
+					background-color: $button_submit;
+					border-color: $button_submit_border;
+					color: $white;
+					outline: 0;
+					flex: 1;
+					&:hover {
+						background-color: $button_submit;
+						border-color: $button_submit_border_hover;
+					}
+				}
+			}
+
+		}
 		.btn {
 			margin-left: 10px;
 			margin-bottom: 10px;
-			text-shadow: none;
+
 		}
-		.btn_edgedoc {
-			background-color: $button_submit;
-			border-color: $button_submit_border;
-			color: $white;
-			outline: 0;
-			&:hover {
-				background-color: $button_submit;
-				border-color: $button_submit_border_hover;
-			}
-		}
+
 	}
 }
 @media(min-width:992px) {
 	.hero .get-it {
 		text-align: right;
-		margin-top: 80px;
+		margin-top: 70px;
 		padding-right: 30px;
 	}
 }
@@ -165,16 +191,9 @@ section {
 	}
 }
 
-.form-inline {
-	.email_field {
-		width: 75%;
-	}
-	.email_input {
-		width: 100%;
-		margin-bottom: 10px;
-		height: 35px;
-	}
-}
+
+
+
 @media(max-width:767px) {
 	.form-inline {
 		display: flex;
