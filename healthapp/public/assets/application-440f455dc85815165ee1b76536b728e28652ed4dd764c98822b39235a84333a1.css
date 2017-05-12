@@ -1,0 +1,229 @@
+/* line 17, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.navbar {
+  margin-bottom: 0;
+  border: none;
+}
+
+/* line 21, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero {
+  background: url(jellyfish.jpg) center no-repeat;
+  background-size: cover;
+  border: none;
+}
+/* line 26, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it h1 {
+  color: #fff;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 40px;
+}
+/* line 31, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it p {
+  color: #fff;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 40px;
+}
+/* line 37, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it .intro .Newsletter_header {
+  color: #fff;
+}
+/* line 42, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it form#new_doctor .firs_last_name_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+/* line 45, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it form#new_doctor .firs_last_name_wrapper .first_last_input {
+  flex: 1;
+  margin: 5px;
+}
+/* line 50, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it form#new_doctor .email_field {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+/* line 54, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it form#new_doctor .email_field .email_input {
+  width: 100%;
+  margin: 5px 5px 10px 5px;
+  height: 35px;
+  flex: 3;
+}
+/* line 60, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it form#new_doctor .email_field .btn_edgedoc {
+  text-shadow: none;
+  margin: 5px 5px 10px 5px;
+  background-color: #862b8b;
+  border-color: #5e415f;
+  color: #fff;
+  outline: 0;
+  flex: 1;
+}
+/* line 68, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it form#new_doctor .email_field .btn_edgedoc:hover {
+  background-color: #862b8b;
+  border-color: #733576;
+}
+/* line 76, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.hero .get-it .btn {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+  /* line 85, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+  .hero .get-it {
+    text-align: right;
+    margin-top: 70px;
+    padding-right: 30px;
+  }
+}
+/* line 91, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.icon-feature {
+  text-align: center;
+}
+/* line 93, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.icon-feature .glyphicon {
+  font-size: 60px;
+}
+
+/* line 97, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.site-footer {
+  text-align: center;
+  padding: 20px 0;
+}
+/* line 100, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.site-footer h5 {
+  color: inherit;
+  font-size: 20px;
+}
+/* line 104, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.site-footer .social-icons a {
+  display: inline-block;
+  width: 32px;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 4px;
+  color: #fff;
+  text-align: center;
+  background-color: #798fa5;
+  height: 32px;
+  opacity: .8;
+  line-height: 32px;
+}
+/* line 117, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.site-footer .social-icons a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  /* line 124, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+  .hero .get-it {
+    text-align: center;
+  }
+  /* line 127, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+  .hero .phone-preview {
+    text-align: center;
+  }
+}
+/* line 132, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.inside-phone {
+  position: relative;
+  max-width: 250px;
+  margin: 20px;
+  display: inline-block;
+}
+/* line 137, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.inside-phone .screen {
+  position: absolute;
+  width: 88%;
+  height: 77%;
+  top: 12%;
+  border-radius: 2px;
+  left: 6%;
+  border: 1px solid #444;
+  overflow: hidden;
+  background: url(edgedoc2.png) center no-repeat;
+  background-size: 90% auto;
+}
+/* line 148, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.inside-phone .screen:before {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  width: 70%;
+  height: 140%;
+  top: -12%;
+  right: -60%;
+  transform: rotate(-19deg);
+  opacity: .2;
+}
+/* line 160, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.inside-phone img.device {
+  width: 100%;
+  height: auto;
+}
+
+/* line 166, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+section.features {
+  background-color: #369;
+  padding: 40px 0;
+  color: #fff;
+}
+/* line 171, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+section.testimonials {
+  margin: 50px 0;
+}
+
+/* line 176, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.features h2 {
+  color: #fff;
+}
+/* line 179, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.features .icon-features {
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  /* line 185, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+  .site-footer h5 {
+    text-align: left;
+  }
+  /* line 188, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+  .site-footer .social-icons {
+    text-align: right;
+  }
+}
+@media (max-width: 767px) {
+  /* line 198, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+  .form-inline {
+    display: flex;
+    margin-left: 7%;
+  }
+}
+/* line 203, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.navbar-brand .glyphicon {
+  margin-right: 6px;
+}
+
+/* line 206, /Users/kevinhu/Desktop/job_project/health-app-demo/healthapp/app/assets/stylesheets/welcome.scss */
+.testimonials blockquote {
+  text-align: center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
