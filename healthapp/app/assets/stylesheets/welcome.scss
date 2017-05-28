@@ -12,11 +12,20 @@ $button_submit_border: #5e415f;
 $button_submit_border_hover: #733576;
 //urls
 $url_0: url(jellyfish.jpg);
-$url_1: url(edgedoc2.png);
+$url_1: url(edgedoc_logo.png);
 
 .navbar {
 	margin-bottom: 0;
 	border: none;
+	.navbar-brand {
+		padding: 8px;
+		.nav_logo {
+			height: 100%;
+		}
+	}
+}
+.jumbotron {
+	margin-bottom: 0;
 }
 .hero {
 	background: $url_0 center no-repeat;
@@ -81,10 +90,46 @@ $url_1: url(edgedoc2.png);
 
 	}
 }
+.pannel_wrapper {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	.main_pannel {
+		height: 25vh;
+		width: 100%;
+		line-height: 5vh;
+		padding-top: 25px;
+		display: flex;
+		flex-direction: row;
+		max-width: 1170px;
+		margin: 0 auto;
+		.image_side {
+			height: 100%;
+			padding: 0 20px;
+		    overflow-y: hidden;
+		    flex: 1;
+		}
+		.text_side {
+			flex: 3;
+			h2 {
+				text-shadow: 1px 1px 1px #9E9E9E;
+			}
+			blockquote {
+				border-left: none;
+			}
+		}
+	}
+	.main_pannel:nth-child(even) {
+		background-color: $color_azure_approx;
+		p {color: $color_porcelain_approx;}
+	}
+}
+
+
+
 @media(min-width:992px) {
 	.hero .get-it {
 		text-align: right;
-		margin-top: 70px;
 		padding-right: 30px;
 	}
 }
