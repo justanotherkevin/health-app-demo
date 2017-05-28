@@ -7,11 +7,19 @@
                 </div>
             </div>
             <div class="col-md-6 col-md-pull-3 get-it">
-                <h1>Our Fantastic App</h1>
+                <h1>No more hassle with out-of-pocket payments</h1>
                 <!-- company intro  -->
                 <div class="intro">
-                    <h2 class="text-center Newsletter_header">Subscribe for our Newsletter</h2>
-                    <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+                    <h2 class="text-center Newsletter_header">
+                        Helping patients find, book, and pay
+                    </h2>
+                    <p>
+                        Manage and track out-of-pocket payments through edgedoc
+                    </p>
+
+                    <p class="text-center">
+                        Coming up soon! Subscribe for our Beta.
+                    </p>
                 </div>
 
                 <%= form_for @doctor, :url => {:controller => "doctors", :action => "create"}, :html => {:class => "form-inline", :method => :post} do |f| %>
@@ -29,15 +37,56 @@
         </div>
     </div>
 </div>
-<!-- video here about payment system -->
-<section class="testimonials">
+
+<div class="pannel_wrapper">
+    <section class="main_pannel">
+        <div class="image_side">
+            <img src="assets/iphone.svg" class="device">
+        </div>
+        <div class="text_side">
+            <h2>Enable easy payments, patient pays anytime, anywhere</h2>
+            <blockquote>
+                <p>Your patients are now able to pay their out-of-pocket expenses through our app. Collect out-of-pocket paymetns in just one click.</p>
+                <footer>Famous tech website</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <section class="main_pannel">
+        <div class="text_side">
+            <h2>Attract patients with seamless services from the start to end</h2>
+            <blockquote>
+                <p>Your patients won't have to go back and forth using different services to find, book, and pay doctors. We will take care of these parts while you focus on your practice.</p>
+                <footer>Famous tech website</footer>
+            </blockquote>
+        </div>
+        <div class="image_side">
+            <img src="assets/iphone.svg" class="device">
+        </div>
+    </section>
+    <section class="main_pannel">
+        <div class="image_side">
+            <img src="assets/iphone.svg" class="device">
+        </div>
+        <div class="text_side">
+            <h2>Collect valuable feedbacks, not just stars</h2>
+            <blockquote>
+                <p>Know what your patients have to say about you and your clinic and track your clinic’s performance</p>
+                <footer>Famous tech website.</footer>
+            </blockquote>
+        </div>
+    </section>
+</div>
+
+<!-- <section class="testimonials">
     <h2 class="text-center">People Love It!</h2>
     <blockquote>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
         <footer>Famous tech website</footer>
     </blockquote>
-</section>
-<section class="features">
+</section> -->
+
+<!-- <section class="features">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -59,4 +108,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
