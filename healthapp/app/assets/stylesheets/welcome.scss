@@ -28,8 +28,11 @@ $url_1: url(edgedoc_logo.png);
 	margin-bottom: 0;
 }
 .hero {
-	background: $url_0 center no-repeat;
+	background-image: url(backgroundimage0.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
+	transition-duration: 3s;
 	border: none;
 	.get-it {
 		h1 {
